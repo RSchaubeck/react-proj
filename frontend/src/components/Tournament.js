@@ -1,5 +1,7 @@
 import React from 'react';
 
-class Tournament extends React.Component {
+const Tournament = ({tournament}) => {
 
 }
+
+export default Tournament;
