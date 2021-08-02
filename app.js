@@ -1,5 +1,8 @@
 const mongoose = require('mongoose');
 const express = require("express");
+const users = require('./routes/api/users');
+const tournaments = require('./routes/api/tournaments');
+const bodyParser = require('body-parser');
 
 const app = express();
 const db = require('./config/keys').mongoURI;
